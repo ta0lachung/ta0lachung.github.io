@@ -1,0 +1,1289 @@
+
+/* 
+CSS Indexing
+=> Body css
+=> Phan dau trang CSS
+=> MENU SHOP CSS
+=> shop now CSS
+=> Danh muc shop CSS
+=> Hang moi CSS
+=> Mua nhieu CSS
+=> FOOTER AREA CSS
+=> HOME VERSION 2 PAGE CSS
+=> TRANG SẢN PHẨM CSS
+=> TRANG GIỚI THIỆU CSS
+=> TRANG CHI TIẾT SẢN PHẨM CSS
+=> TRANG LIÊN HỆ CSS
+=> TRANG HỎI ĐÁP CSS
+=> TRANG GIAO HÀNG CSS
+=> TRANG THANH TOAN CSS
+=> Dang ky dang nhap CSS
+*/
+
+/*----------------------------
+---------- Body css ---------
+----------------------------*/
+.bg-color {
+	background-color: #f8f8f8;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: 'Lora', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+a {
+    transition: 0.3s; /* thời gian chuyển đổi */
+}
+a,
+a:hover {
+    color: #303030;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+iframe {  /* văn bản trong khung */
+    width: 100%;
+    border: none;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+button:focus {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ol {
+    margin-bottom: 0;
+}
+select:focus,
+select:active {
+    box-shadow: none;
+    border: 0;
+    outline: 0
+}
+input:focus,textarea:focus,select:focus,button:focus {
+    outline: none;
+}
+input[type="text"],input[type="email"],input[type="url"],input[type="tel"],input[type="search"],input[type="password"],textarea {
+    background: transparent;
+    max-width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #eee;
+}
+textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+.sec-title {
+    text-align: center;
+    max-width: 730px;
+    margin: auto;
+}
+.sec-title h2,
+.sec-title h3 {
+    margin-bottom: 20px;
+}
+.sec-title h3 {
+    text-transform: uppercase;
+}
+.ptb-15 {
+    padding: 15px 0;
+}
+.ptb-80 {
+    padding: 80px 0;
+}
+.ptb-100 {
+    padding: 100px 0;
+}
+.ptb-110 {
+    padding: 110px 0;
+}
+.ptb-70 {
+    padding: 70px 0;
+}
+.ptb-50 {
+    padding: 50px 0;
+}
+.ptb-20 {
+    padding: 20px 0;
+}
+.pt-75 {
+    padding: 75px 0 0;
+}
+.pb-75 {
+    padding: 0 0 75px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.krishok-btn {
+    background: #77bb17;
+    border: 2px solid #77bb17;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+	cursor: pointer;
+}
+.krishok-btn:hover {
+    background: transparent;
+    border: 2px solid #77bb17;
+    color: #77bb17;
+}
+.krishok-btn i {
+    margin-left: 12px;
+}
+.krishok-btn-transparent {
+    background: transparent;
+    color: #77bb17;
+}
+.krishok-btn-transparent:hover {
+    background: #77bb17;
+    color: #fff;
+}
+
+/*--------------------------------------
+-------- Phan dau trang CSS START --------
+---------------------------------------*/
+header.header-area {
+    background: #3f7d20;
+    color: #fff;
+    font-size: 12px;
+}
+header.header-area a {
+    color: #fff;
+}
+header.header-area li {
+    display: inline-block;
+}
+header.header-area .header-left-content li:last-child {
+    border: 0;
+}
+header.header-area .header-left-content li i {
+    margin-right: 6px;
+}
+header.header-area .header-left-content li {
+    padding-right: 15px;
+    border-right: 1px solid #ddd;
+    margin-right: 15px;
+}
+header.header-area .header-right-content li {
+    padding-left: 15px;
+    border-left: 1px solid #ddd;
+    margin-left: 15px;
+    position: relative;
+}
+.header-right-content li:first-child::after {
+    content: "\f107";
+    position: absolute;
+    top: 0px;
+    right: 6px;
+    opacity: 0.9; /* do trong suot */
+    font-family: 'fontawesome';
+}
+header.header-area .header-right-content li i {
+    margin-left: 6px;
+}
+header.header-area .header-right-content li:first-child {
+    border: 0;
+}
+.header-right-content li select {
+    background: transparent;
+    color: #fff;
+    border: 0;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+    padding-right: 20px;
+    z-index: 6;
+    position: relative;
+}
+.header-right-content {
+    float: right;
+    position: relative;
+}
+.header-right-content option {
+    background: #000000;
+}
+.header-right-content select {
+    cursor: pointer;
+}
+.login-with:hover i {
+    box-shadow: 0 0 15px #bbb;
+}
+a.krishok-cart {
+    padding-right: 18px;
+    font-size: 16px;
+}
+a.krishok-cart span {
+    position: absolute;
+    text-align: center;
+    top: -5px;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    color: #3f7d20;
+    font-size: 13px;
+    border-radius: 50%;
+    background: #fff;
+}
+/*--------------------------------------
+--------- Phan dau trang CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- MENU SHOP CSS START --------
+---------------------------------------*/
+.menubar .logo {
+    padding: 30px 0;
+}
+.mainmenu {
+    float: right;
+}
+.menubar li {
+    display: inline-block;
+    padding-right: 25px;
+    position: relative;
+}
+.menubar li a {
+    text-transform: uppercase;
+    padding: 30px 0;
+    display: inline-block;
+    position: relative;
+}
+.toggle-pade {
+    padding: 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+.navbar-form {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 99;
+    display: none;
+    margin-top: 30px;
+}
+.navbar-form input {
+    border: 2px solid #3f7d20 !important;
+    opacity: 1; /* do trong suot */
+    border-radius: 0;
+    border: none;
+    background: #fff;
+    padding: 6px 20px;
+}
+.menubar li:last-child {
+    padding: 0;
+}
+.menubar ul li a::before {
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background: #77bb17;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.3s;
+}
+.mainmenu li a i {
+	margin-left: 5px;
+}
+.mainmenu li ul {
+    position: absolute;
+    left: 0;
+    top: 150%;
+    z-index: 99;
+    background: #222222;
+    width: 250px;
+    padding: 10px;
+    transition: 0.3s;
+    opacity: 0; /* do trong suot */
+    visibility: hidden;
+}
+.mainmenu li ul li {
+    display: block;
+}
+.mainmenu li ul li a {
+    padding: 7px 0;
+    color: #fff;
+    font-size: 90%;
+}
+
+.mainmenu li:hover ul {
+    opacity: 1; /* do trong suot */
+    visibility: visible;
+    top: 100%;
+}
+.responsive-menu {
+    display: none;
+}
+
+/*--------------------------------------
+--------- MENU SHOP CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- shop now CSS START --------
+---------------------------------------*/
+.hero-area {
+    color: #fff;
+    position: relative;
+	overflow: hidden;
+}
+
+.hero-area-content p {
+    margin: 15px 0 40px;
+}
+
+.image-slider img {
+    padding: 0 30px;
+    width: 100%;   
+}
+.image-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+	height: 100%;
+}
+.bx-wrapper .bx-viewport {
+    box-shadow: none;
+    border: 0;
+    left: 0;
+    height: 100%;
+}
+
+.image-slider img {
+    height: 100%;
+}
+.item-slider {
+    height: 100%;
+}
+.item-content {
+    height: inherit;  /* theo thuoc tinh cha */
+}
+.bx-wrapper {
+    margin: 0 auto;
+    height: inherit; /* theo thuoc tinh cha */
+}
+
+/*--------------------------------------
+--------- shop now CSS END ---------
+---------------------------------------*/
+
+/*-----------------------------------------
+----- Danh muc shop CSS START -----
+------------------------------------------*/
+.shopping-product-menu li {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    width: 20%;
+    padding: 15px;
+    margin-right: -4px;
+    border-left: 1px solid #eee;
+}
+.shopping-product-menu {
+    text-align: center;
+    border: 1px solid #eee;
+    margin-bottom: 50px;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.shopping-product-menu li:first-child {
+    border: 0;
+}
+.shopping-product-menu li i {
+    margin-left: 8px;
+}
+.shopping-product-menu li::before {
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background: #77bb17;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+.shopping-product-menu li:hover::before,
+.shopping-product-menu li.active {
+    color: #77bb17;
+}
+.shopping-product-menu li:hover::before,
+.shopping-product-menu li.active::before {
+    width: 100%;
+}
+.shopping-product-menu .navbar-form {
+	margin-top: 0;
+}
+.shopping-product .sell-item {
+    margin-bottom: 30px;
+}
+.pagination {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+}
+.pagination li {
+    display: inline-block;
+}
+.pagination li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #77bb17;
+    display: inline-block;
+    margin: 0 4px;
+    background: #fff;
+}
+.pagination li.active a,
+.pagination li:hover a {
+    background: #77bb17;
+    color: #fff;
+}
+/*-----------------------------------------
+------ Danh muc shop CSS END ------
+------------------------------------------*/
+
+/*--------------------------------------
+-------- Hang moi CSS START --------
+---------------------------------------*/
+.product {
+    background: #f9f9f9;
+}
+.product ul.nav.nav-tabs {
+    border: 0;
+    height: 530px;
+    overflow: hidden;
+    overflow-y: auto;
+    padding-right: 25px;
+}
+.product-list {
+    width: 100%;
+    position: relative;
+    height: 88px;
+    overflow: hidden;
+}
+.product-list-img {
+    float: left;
+    width: 20%;
+}
+.nav-tabs .nav-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.product-list-info {
+    background: #fff;
+    padding: 0 60px 0 40px;
+    width: 80%;
+    float: left;
+    display: table;
+    height: 100%;
+    transition: 0.3s;
+}
+.product-list-info-table {
+    display: table-cell;
+    vertical-align: middle; /* can giua theo phan bao */
+}
+.product-list-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #77bb17;
+    text-align: center;
+    color: #fff;
+    transform: scaleX(0);
+    transition: 0.3s;
+}
+.product-list-icon i {
+    width: 60px;
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #ddd;
+}
+.product-list-icon i:last-child {
+    border: none;
+}
+.nav-tabs .nav-item a:hover .product-list-icon,
+.nav-tabs .nav-item a.active .product-list-icon {
+    transform: scaleX(1);
+}
+.nav-tabs .nav-item a:hover .product-list-info,
+.nav-tabs .nav-item a.active .product-list-info {
+    background: #3f7d20;
+    color: #fff;
+}
+/*--------------------------------------
+--------- Hang moi CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- Mua nhieu CSS START --------
+---------------------------------------*/
+.sell-item {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding-bottom: 25px;
+    background: #fff;
+}
+.sell-item h5 {
+    position: relative;
+    padding-top: 10px;
+}
+.sell-item p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #303030;
+    margin: 20px 0 10px;
+}
+.sell-item p a:hover {
+	color: #77bb17;
+}
+.sell-item h5::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    background: #559f30;
+    height: 1px;
+}
+.sell-area {
+    margin-top: 70px;
+    padding: 0 60px;
+}
+.product-img {
+    position: relative;
+}
+.product-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(20,20,20,0.7);
+	transform: scaleY(0);
+	transition: 0.3s;
+}
+.product-img:hover  .product-img-overlay {
+	transform: scaleY(1);
+}
+.product-img-overlay .krishok-btn {
+	font-size: 12px;
+	padding: 5px 16px;
+	margin-top: 34%;
+}
+.owl-nav div {
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    width: 42px;
+    background: #303030;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+	transition: 0.3s;
+	margin-top: -50px;
+}
+.owl-nav div:hover {
+	background: #77bb17;
+}
+.owl-nav div.owl-next {
+    right: -25px;
+    left: auto;
+}
+/*--------------------------------------
+--------- Mua nhieu CSS END ---------
+---------------------------------------*/
+
+
+/*--------------------------------------
+--------  FOOTER AREA CSS START --------
+---------------------------------------*/
+.site-footer{
+    border-top: #3f7d20 solid 2px;
+}
+.site-footer .widget {
+    padding-top: 10px;
+    margin-bottom: 35px;
+    font-size: 13px;
+    font-weight: 300;
+    display: inline-block;
+    width: 100%;
+}
+h5.widget-title {
+
+    margin-bottom: 30px;
+    display: inline-block;
+    position: relative;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+h5.widget-title::before {
+    line-height: 25px;
+    background: #3f7d20;
+    opacity: 0.5; /* do trong suot */
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    border-radius: 30px;
+    max-width: 100%;
+    transition: 0.3s;
+}
+h5.widget-title:hover::before {
+    width: 100%;
+}
+.widget-icon {
+    margin-top: 50px;
+}
+.widget-icon a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-right: 10px;
+}
+.widget-icon a:hover {
+    background: #77bb17;
+	color: #fff;
+    border: 1px solid #77bb17;
+}
+
+.footer-bottom-bg {
+    background: #3f7d20;
+}
+.footer-bottom {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+/*--------------------------------------
+--------- FOOTER AREA CSS END ---------
+---------------------------------------*/
+
+
+/*--------------------------------------
+-------- TRANG SẢN PHẨM CSS START --------
+---------------------------------------*/
+.theme2.hero-area {
+    background: none;
+    background: url(../img/slide-bg-4.jpg) no-repeat 0 0 / cover;
+    text-align: center;
+}
+.theme2.hero-area::before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.all-product {
+    background: #f9f9f9;
+}
+.dropdowns-select {
+    position: relative;
+}
+.dropdowns-select select {
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 15px 20px 15px 15px;
+    z-index: 6;
+    position: relative;
+    cursor: pointer;
+}
+.all-product .dropdowns-select select {
+    height: 100%;
+    border-radius: 30px;
+    padding: 15px 40px 15px 15px;
+    border: 0;
+}
+.product-dropdown {
+    background: #fff;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.dropdowns-select::after {
+    content: "\f107";
+    position: absolute;
+    top: 0px;
+    right: 46px;
+    opacity: 0.9; /* do trong suot */
+    font-family: 'fontawesome';
+    margin-top: 15px;
+}
+.product-dropdown .dropdowns-select::after {
+    right: 5px;
+}
+.product-dropdown .dropdowns-select {
+    position: relative;
+    display: inline-block;
+}
+.single-product {
+    background: #fff;
+    margin-top: 30px;
+    opacity: 0.8; /* do trong suot */
+    border: 1px solid #ededed;
+}
+.product-details {
+    border-top: 1px solid #ededed;
+    padding: 14px;
+    display: inline-block;
+    width: 100%;
+}
+.product-details h4 {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.product-details .price {
+    font-weight: 300;
+}
+.product-details .price strong {
+    font-weight: 600;
+}
+.product-icon {
+    float: right;
+    width: 10%;
+}
+.product-info {
+    width: 90%;
+    float: left;
+}
+.product-icon a {
+    opacity: 0.5; /* do trong suot */
+    display: block;
+    margin: 0 0 15px;
+}
+.product-icon a:hover {
+    opacity: 1; /* do trong suot */
+}
+.product-details a:hover {
+    color: #77bb17;
+}
+.product-details p {
+    margin: 5px 0 0;
+    font-size: 12px;
+}
+.all-product .pagination {
+    margin: 50px 0 30px;
+}
+/* product tab css */
+.product-tab {
+    background: url(../img/main-product/tab1.jpg) no-repeat 0 0 / cover;
+    padding: 20px 10px 30px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin: 30px 0 0;
+}
+.product-tab-2 {
+    background-image: url(../img/main-product/tab2.jpg);
+}
+.product-tab-3 {
+    background-image: url(../img/main-product/tab3.jpg);
+}
+.product-tab i {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #fff;
+    line-height: 43px;
+    border-radius: 50px;
+    font-size: 18px;
+    padding-right: 3px;
+}
+.product-tab h4 {
+    margin-top: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.product-tab::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.9; /* do trong suot */
+    width: 100%;
+    height: 100%;
+    background: #497c28;
+    z-index: -1;
+}
+.all-product .sec-title {
+    margin-bottom: 30px;
+}
+.single-product-img img {
+    width: 100%;
+}
+/*--------------------------------------
+--------- TRANG SẢN PHẨM CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- TRANG GIỚI THIỆU CSS START --------
+---------------------------------------*/
+.hero-area.theme-3 {
+    background: none;
+}
+.hero-area.theme-3::before {
+    width: 70%;
+    top: 0;
+    height: 100%;
+}
+.hero-area-theme-3 {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    z-index: -1;
+}
+.hero-area-theme-3.theme-3_1 {
+    background-image: url(../img/slide-bg-5.jpg);
+    width: 70%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.hero-area-theme-3.theme-3_2 {
+    background-image: url(../img/slide-bg-6.jpg);
+    width: 30%;
+    height: 50%;
+    top: 0;
+    right: 0;
+}
+.hero-area-theme-3.theme-3_3 {
+    background-image: url(../img/slide-bg-7.jpg);
+    width: 30%;
+    height: 50%;
+    bottom: 0;
+    right: 0;
+}
+.about-area-content iframe {
+    height: 320px;
+}
+.about-area-content h2 {
+    margin-bottom: 25px;
+}
+.about-area-content p {
+    margin-bottom: 18px;
+}
+.about-area-content .krishok-btn {
+    margin-top: 40px;
+}
+.about-area {
+    background: #f9f9f9;
+}
+/* testimonial area css */
+
+.single-testimonial-box {
+    background: #f9f9f9;
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    padding: 50px 50px 25px;
+    font-size: 13px;
+}
+.testimonial-box-img {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    right: 0;
+    max-height: 100px;
+}
+.testimonial-slide.owl-carousel .owl-item img {
+    width: auto;
+    margin: auto;
+}
+.testimonial-box-img img {
+    max-height: inherit;
+}
+.single-testimonial-box h5 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+.single-testimonial-box .review-star {
+    margin-top: 15px;
+}
+.owl-dots {
+    text-align: center;
+    margin-top: 40px;
+}
+.owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #c0c0c0;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 3px;
+}
+.owl-dot.active {
+    background: #3f7d20;
+}
+/*--------------------------------------
+--------- TRANG GIỚI THIỆU CSS END ---------
+---------------------------------------*/
+
+
+/*--------------------------------------
+-------- TRANG LIÊN HỆ CSS START --------
+---------------------------------------*/
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+}
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 17px;
+}
+.contact-form button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-form h4,
+.contact-form h3 {
+    margin-bottom: 40px;
+}
+.contact-area {
+    border: 1px solid #eee;
+    padding: 35px 25px 35px;
+    font-weight: 300;
+}
+.contact-area p {
+    margin-bottom: 20px;
+}
+.contact-form textarea {
+    height: 135px;
+}
+.map-area {
+    border-top: 1px solid #eee;
+    padding-bottom: 50px;
+}
+.google-map {
+    height: 450px;
+}
+/*--------------------------------------
+--------- TRANG LIÊN HỆ CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- TRANG HỎI ĐÁP CSS START --------
+---------------------------------------*/
+.theme2.theme5.hero-area {
+    background: url(../img/slide-bg-9.jpg) no-repeat 0 0 / cover;
+}
+.faq-area {
+    box-shadow: 0 0 15px #eee;
+}
+.card {
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    border-radius: 0;
+    padding: 10px 30px;
+}
+.card-header {
+    background: transparent;
+}
+.card-header {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+.card-header a {
+    color: #303030;
+    padding: 15px;
+    font-size: 16px;
+    display: block;
+    position: relative;
+}
+.card-header a:after {
+    font-family: 'fontawesome';
+    font-size: 20px;
+    content: "\f107";
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: table;
+    vertical-align: middle; /* can giua theo phan bao */
+    bottom: 0;
+    margin: auto;
+}
+.card-header a[aria-expanded="true"]::after {
+    content: "\f106";
+}
+.card-body {
+    padding: 0;
+    margin: 10px 40px 20px;
+    position: relative;
+    padding-left: 30px;
+}
+.card-body::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: #77bb17;
+}
+/*--------------------------------------
+--------- TRANG HỎI ĐÁP CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- TRANG GIAO HÀNG CSS START --------
+---------------------------------------*/
+.theme2.theme6.hero-area {
+    background: url(../img/slide-bg-10.jpg) no-repeat 0 0 / cover;
+}
+.checkout-area {
+    background: #f9f9f9;
+}
+.checkout-area .contact-form {
+    background: #fff;
+    padding: 50px 70px;
+}
+.contact-form select {
+    background: transparent;
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #eee;
+    display: block;
+    margin-bottom: 17px;
+}
+/*--------------------------------------
+--------- TRANG GIAO HÀNG CSS END ---------
+---------------------------------------*/
+
+/*--------------------------------------
+-------- TRANG THANH TOAN CSS START --------
+---------------------------------------*/
+.contact-form label {
+    display: block;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.contact-form.contact-form-2 input,
+.contact-form.contact-form-2 select {
+    margin-bottom: 30px;
+}
+.contact-form input[type="checkbox"],
+.contact-form input[type="radio"] {
+    width: auto;
+}
+.contact-form.contact-form-2 p {
+    display: inline-block;
+    margin-left: 10px;
+}
+.contact-form p span {
+    color: #77bb17;
+}
+.contact-form-2 h4 {
+    font-family: 'Poppins', sans-serif;
+}
+.select-container,
+.contact-container {
+    position: relative;
+}
+.select-container select {
+    appearance: none;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+    padding-right: 35px;
+}
+.select-container::after {
+    content: "\f107";
+    position: absolute;
+    top: 25%;
+    right: 15px;
+    font-family: 'fontawesome';
+    font-size: 19px;
+}
+.contact-container input {
+    padding-right: 35px;
+}
+.contact-container i {
+    position: absolute;
+    bottom: 40%;
+    right: 15px;
+    font-size: 19px;
+    color: #303030;
+}
+.contact-form form img {
+    margin-left: 5px;
+    margin-right: 20px;
+}
+/*--------------------------------------
+--------- TRANG THANH TOAN CSS END ---------
+---------------------------------------*/
+
+
+
+/*----------------------------------------------
+----- Dang ky dang nhap CSS START -----
+-----------------------------------------------*/
+
+.login-popup {
+    top: 100%;
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    background: #fff;
+    z-index: 9;
+    max-width: 380px;
+    padding: 25px 35px 30px;
+    width: 380px;
+    color: #303030;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0 0 7px #eee;
+}
+.login-popup .contact-container i {
+    font-size: 12px;
+}
+.login-popup .contact-container {
+    margin-bottom: 17px;
+}
+.login-popup.contact-form p {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.login-popup .contact-container input {
+    padding-right: 35px;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+.login-popup.contact-form p a {
+    font-weight: 400;
+    color: #77bb17;
+}
+.login-popup.contact-form h4 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+}
+.sign-with {
+    position: relative;
+}
+.sign-with::before,
+.sign-with::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: middle; /* can giua theo phan bao */
+    bottom: 0;
+    margin: auto;
+    width: 30%;
+    height: 1px;
+    background: #ddd;
+}
+.sign-with::after {
+    left: auto;
+    right: 0;
+}
+.login-with {
+    width: 50%;
+    display: inline-block;
+    margin-left: -6px;
+    margin-top: 10px;
+}
+.login-with i {
+    width: 100%;
+    padding: 15px;
+    background: #415e9b;
+}
+.login-with i.fa-twitter {
+    background: #08afee;
+}
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 300;
+    opacity: 0.6; /* do trong suot */
+    cursor: pointer;
+}
+.popup-close i {
+    margin: 0 !important;
+}
+.registration-form,
+.login-form {
+    display: none;
+}
+/*--------------------------------------------
+------ Dang ky dang nhap CSS END ------
+---------------------------------------------*/
